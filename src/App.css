@@ -2,11 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
+
 
 .App-header {
   background-color: #282c34;
@@ -31,3 +27,71 @@
     transform: rotate(360deg);
   }
 }
+
+@keyframes App-logo-spin1 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+
+.ventilador{
+  top:-360px;
+  position: relative;
+  animation: App-logo-spin1 infinite 30s linear;
+
+}
+.App-logo {
+  top:45px;
+
+  left:-10px;
+  animation: App-logo-spin infinite 2s linear;
+
+  position:relative; 
+  height: 350px;
+  pointer-events: none;
+  
+
+  }
+
+  .App-logo-media {
+    top:45px;
+  
+    left:-10px;
+    animation: App-logo-spin infinite 0.5s linear;
+  
+    position:relative; 
+    height: 350px;
+    pointer-events: none;
+    
+  
+    }
+
+    .App-logo-alta {
+      top:45px;
+    
+      left:-10px;
+      animation: App-logo-spin infinite 0.2s linear;
+    
+      position:relative; 
+      height: 350px;
+      pointer-events: none;
+      
+    
+      }
+
+      .botao{position:relative;
+      top:-525px;
+      left:15px;
+    transform: rotate(6deg);
+    background:#000;
+    color: #fff;
+    padding:3px;
+    border:none; border-radius: 24px;
+    outline: none;
+  }
+
+  .botao:active{background: #585858;}
